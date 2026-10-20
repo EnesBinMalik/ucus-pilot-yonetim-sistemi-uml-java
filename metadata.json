@@ -1,0 +1,6 @@
+{
+  "name": "Uçuş & Pilot Yönetim Sistemi - UML & Java",
+  "description": "Uçuş ve pilot yönetimi için nesne yönelimli sistem tasarımı, interaktif UML Sınıf Diyagramı ve Enes Öztürk imzalı Java mimarisi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
