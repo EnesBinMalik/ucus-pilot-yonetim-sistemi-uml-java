@@ -1,20 +1,42 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Uçuş & Pilot Yönetim Sistemi - UML & Java
 
-# Run and deploy your AI Studio app
+![Uçuş & Pilot Yönetim Sistemi - UML & Java — rozet](docs/rozet.svg)
 
-This contains everything you need to run your app locally.
+> **Java · nesne yönelimli programlama** — tasarım ve geliştirme: **Enes Öztürk**
 
-View your app in AI Studio: https://ai.studio/apps/29f35a32-c8b8-4ab0-92ac-f518ebf68bf2
+---
 
-## Run Locally
+Uçuş ve pilot yönetimi için nesne yönelimli sistem tasarımı, interaktif UML Sınıf Diyagramı ve Enes Öztürk imzalı Java mimarisi.
 
-**Prerequisites:**  Node.js
+## Öne çıkanlar
 
+- Sınıf ve metot yapısı, kapsülleme ve kalıtım
+- Döngü, koşul ve koleksiyon kullanımı
+- Konsol çıktısı ve girdi doğrulama
+- Arayüzde canlı simülasyon ve kaynak kod görünümü
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Kurulum ve çalıştırma
+
+```bash
+npm install
+npm run dev        # http://localhost:3000
+```
+
+| Komut | Not |
+| --- | --- |
+| `npm install` | bağımlılıklar |
+| `npm run dev` | geliştirme sunucusu |
+| `npm run build` | üretim derlemesi |
+
+## Proje yapısı
+
+```
+├── index.html
+├── package.json
+├── docs/rozet.svg        # imza rozeti
+└── src/                  # uygulama kaynakları
+```
+
+## Lisans
+
+Bu proje **Enes Öztürk** tarafından geliştirilmiştir; tüm hakları saklıdır.
